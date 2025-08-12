@@ -19,11 +19,11 @@ export default function VerificationEmail(){
             <Preview>Hey Thank you for registration on GYST club</Preview>
             <Section>
                 <Row>
-                    <Heading as="h2">Hello User</Heading>
+                    <Heading as="h2">Hello sir/mam</Heading>
                 </Row>
                 <Row>
                     <Text>
-                        Thank you for registering on GYST club. Please use the following link to join our whatsapp group and stay updated with the latest news and events.
+                        Thank you for joining GYST club. Please use the following link to join our whatsapp group and stay updated with the latest news and events.
                     </Text>
                 </Row>
                 <Row>
