@@ -18,7 +18,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { useRouter } from 'next/navigation'
+import { redirect, useRouter } from 'next/navigation'
 import { joinSchema } from '../../../schemas/join'
 import { useForm } from 'react-hook-form'
 import {z} from 'zod'
@@ -99,7 +99,7 @@ const Home = () => {
     try {
       await axios.post('/api/join', data);
       toast.success('Registration successful! Check your email for details.');
-      router.push('/');
+      redirect('/');
     } catch (error) {
       console.error('Error during registration:', error);
       toast.error('Registration failed. Please try again.');
