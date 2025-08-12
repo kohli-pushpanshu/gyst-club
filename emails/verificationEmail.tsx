@@ -27,7 +27,12 @@ export default function VerificationEmail(){
                     </Text>
                 </Row>
                 <Row>
-                    <Text>link</Text>
+                    <Heading as="h4">For Boys</Heading>
+                    <Text>https://chat.whatsapp.com/HvwiQCpo4HdKH4tPUPR1HZ</Text>
+                </Row>
+                <Row>
+                    <Heading as="h4">For Girls</Heading>
+                    <Text>https://chat.whatsapp.com/Hhycz9Cw1th0tORy5KQD2a</Text>
                 </Row>
                 <Row>
                     <Text>if you did not request this code, Please ignore this email</Text>
